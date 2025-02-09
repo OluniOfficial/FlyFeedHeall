@@ -1,0 +1,8 @@
+name: FlyFeedHeall
+version: '1'
+main: oluni.official.ded.flyFeedHeall.FlyFeedHeall
+api-version: '1.21'
+commands:
+  jheal:
+  jfeed:
+  jfly:
