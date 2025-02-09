@@ -14,7 +14,7 @@ public class Heal implements CommandExecutor {
             if (commandSender.hasPermission("heal.heal")) {
                 Player player = ((Player) commandSender).getPlayer();
                 player.sendMessage(ChatColor.AQUA + "Ви полікували себе!");
-                // Це можна зробити й через атрибути, але я вирішив так.
+                // Це можна зробити й через атрибути, але я вирішив так. Воно застаріло, але мені було зараз ліньки робити це.
                 player.setHealth(player.getMaxHealth());
             } else {
                 commandSender.sendMessage(ChatColor.RED + "Ви не маєте права на цю дію!");
